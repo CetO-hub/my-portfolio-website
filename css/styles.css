@@ -319,7 +319,7 @@ button:focus,
 
 .contact-form__textfield-description {
   font-size: 12px;
-  margin: 0.5rem auto 1rem;
+  margin: 1rem auto 0;
   max-width: 40ch;
 }
 
@@ -426,12 +426,21 @@ button:focus,
     grid-row: auto / auto;
   }
 
+  .page-footer-index {
+    margin-top: calc(100vh - 670px);
+  }
+
   h1 {
     font-size: 22px;
   }
 }
 
-@media all and (max-width: 1920px) {
+@media all and (min-width: 556px) and (max-width: 999px) {
+  .page-footer-index {
+    margin-top: calc(100vh - 700px);
+  }
+}
+@media all and (min-width: 1000px) and (max-width: 1920px) {
   .page-footer-index {
     margin-top: calc(100vh - 700px);
   }
