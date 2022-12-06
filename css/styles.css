@@ -280,6 +280,16 @@ button:focus,
   text-align: center;
 }
 
+.icons {
+  width: 20px;
+}
+
+.communication {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
 .contact-form {
   display: flex;
   flex-direction: column;
