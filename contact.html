@@ -18,7 +18,7 @@
       href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&   display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="./css/styles.production.css" />
+    <link rel="stylesheet" href="./css/styles.css" />
     <title>First Steps</title>
   </head>
   <body>
@@ -88,20 +88,23 @@
             <label for="email">Your e-mail:</label>
             <input id="email" type="email" required />
           </div>
-          <div class="contact-form__your-message">
-            <label for="message">Your message: </label>
+          <div>
+            <div class="your-message">
+              <label class="your-message__label" for="message"
+                >Your message:
+              </label>
+              <textarea
+                id="message"
+                rows="2"
+                maxlength="240"
+                placeholder="Your message..."
+                required
+              ></textarea>
+            </div>
             <p class="contact-form__textfield-description">
-              Enter your message in the field below and I will reach back to you
+              Enter your message in the field above and I will reach back to you
               under your e-mail (max-length: 240 characters)
             </p>
-            <textarea
-              id="message"
-              rows="2"
-              cols="30"
-              maxlength="240"
-              placeholder="Your message..."
-              required
-            ></textarea>
           </div>
           <button type="submit">Submit request</button>
         </form>

@@ -289,18 +289,22 @@ button:focus,
   margin: 0;
 }
 
-.contact-form label[for="name"],
-.contact-form label[for="email"] {
+.contact-form label {
   display: inline-block;
-  min-width: 100px;
+  min-width: 150px;
 }
 
-.contact-form__your-message {
-  margin-top: 1rem;
+.your-message {
+  display: flex;
+  gap: 0.3rem;
 }
-.contact-form__your-message label {
-  font-weight: var(--bold);
-  margin-top: 1rem;
+
+.your-message textarea {
+  min-width: 193.41px;
+}
+
+.your-message__label {
+  align-self: center;
 }
 
 .contact-form__textfield-description {
@@ -374,6 +378,17 @@ button:focus,
 
   .about-city-svg {
     width: 375px;
+  }
+
+  /* Contact */
+
+  .contact-form label {
+    display: inline-block;
+    min-width: 125px;
+  }
+
+  .your-message textarea {
+    min-width: 190px;
   }
 }
 
