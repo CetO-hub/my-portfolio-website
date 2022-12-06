@@ -313,6 +313,10 @@ button:focus,
   max-width: 40ch;
 }
 
+.contact-form__button {
+  margin-top: -0.5rem;
+}
+
 @media all and (max-width: 555px) {
   /* Header */
 
