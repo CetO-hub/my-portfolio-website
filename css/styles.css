@@ -307,6 +307,16 @@ button:focus,
   align-self: center;
 }
 
+.contact-form input,
+.contact-form textarea {
+  padding: 0.2rem;
+}
+.contact-form input::placeholder,
+.contact-form textarea::placeholder {
+  font-style: italic;
+  padding: 0.2rem;
+}
+
 .contact-form__textfield-description {
   font-size: 12px;
   margin: 0.5rem auto 1rem;
