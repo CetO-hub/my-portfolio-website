@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="./favicon-32x32.png" type="image/x-icon" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+      integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&   display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/styles.production.css" />
+    <title>First Steps</title>
+  </head>
+  <body>
+    <header class="page-header">
+      <img
+        class="page-header__item"
+        src="./img/christoph_schwarzkopf_logo.svg"
+        alt="Personal logo of Christoph Schwarzkopf, with two capital letters as initials and the full name going through the center of the initials"
+      />
+      <nav class="main-navigation page-header__item">
+        <ul role="menubar" class="navigation-list">
+          <li role="presentation">
+            <a role="menuitem" href="./index.html" class="navigation-list__item"
+              >Home</a
+            >
+          </li>
+          <li role="presentation">
+            <a role="menuitem" href="./about.html" class="navigation-list__item"
+              >About me</a
+            >
+          </li>
+          <li role="presentation">
+            <a role="menuitem" href="./work.html" class="navigation-list__item"
+              >Work</a
+            >
+          </li>
+          <li role="presentation">
+            <a
+              role="menuitem"
+              href="./contact.html"
+              class="navigation-list__item--active"
+              >Contact</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main class="contact">
+      <h1>Contact</h1>
+      <div class="contact__details">
+        Christoph Schwarzkopf<br />
+        In den Dorngärten 25 <br />
+        61381 Friedrichsdorf<br />
+        Deutschland<br />
+        <br />
+        Tel:
+        <a href="tel:+491729510929" aria-label="Telephone contact line"
+          >+49 172 951 09 29</a
+        ><br />
+        Skype: <a href="skype:Christoph Schwarzkopf">Christoph Schwarzkopf</a
+        ><br />
+        E-mail:
+        <a href="mailto:c4.schwarzkopf@gmail.com">c4.schwarzkopf@gmail.com</a>
+        <br />
+        <a href="mailto:c4.schwarzkopf@gmail.com">Contact me</a>
+      </div>
+
+      <div class="contact__form">
+        <h2>Contact form</h2>
+        <form class="contact-form" action="" method="post">
+          <p>All fields are required.</p>
+          <div>
+            <label for="name">Full name:</label>
+            <input id="name" type="text" required />
+          </div>
+          <div>
+            <label for="email">Your e-mail:</label>
+            <input id="email" type="email" required />
+          </div>
+          <div class="contact-form__your-message">
+            <label for="message">Your message: </label>
+            <p class="contact-form__textfield-description">
+              Enter your message in the field below and I will reach back to you
+              under your e-mail (max-length: 240 characters)
+            </p>
+            <textarea
+              id="message"
+              rows="2"
+              cols="30"
+              maxlength="240"
+              placeholder="Your message..."
+              required
+            ></textarea>
+          </div>
+          <button type="submit">Submit request</button>
+        </form>
+      </div>
+    </main>
+    <footer class="page-footer page-footer-contact">
+      <p>Find me on</p>
+      <div class="social-media">
+        <!-- Insert 3 links to your social media -->
+        <a href="#"><img src="./img/github.svg" alt="github icon" /></a>
+        <a href="#"><img src="./img/twitter.svg" alt="twitter icon" /></a>
+        <a href="#"><img src="./img/linkedin.svg" alt="linkedin icon" /></a>
+      </div>
+    </footer>
+    <script src="js/tota11y.min.js"></script>
+  </body>
+</html>
