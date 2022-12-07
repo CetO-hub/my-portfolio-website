@@ -458,26 +458,12 @@ button:focus,
     grid-row: auto / auto;
   }
 
-  .page-footer-index {
-    margin-top: calc(100vh - 670px);
-  }
-
   h1 {
     font-size: 22px;
   }
 }
 
-@media all and (min-width: 556px) and (max-width: 999px) {
-  .page-footer-index {
-    margin-top: calc(100vh - 700px);
-  }
-}
-@media all and (min-width: 1000px) and (max-width: 1920px) {
-  .page-footer-index {
-    margin-top: calc(100vh - 700px);
-  }
-}
-@media all and (min-width: 1921px) and (max-width: 2560px) {
+@media all and (min-width: 555px) and (max-width: 2560px) {
   .page-footer-index {
     margin-top: calc(100vh - 700px);
   }
