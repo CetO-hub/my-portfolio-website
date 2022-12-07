@@ -462,17 +462,3 @@ button:focus,
     font-size: 22px;
   }
 }
-
-@media all and (min-width: 555px) and (max-width: 2560px) {
-  .page-footer-index {
-    margin-top: calc(100vh - 700px);
-  }
-
-  .page-footer-contact {
-    margin-top: calc(100vh - 1050px);
-  }
-
-  .page-footer-work {
-    margin-top: calc(100vh - 1050px);
-  }
-}
