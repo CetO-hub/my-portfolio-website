@@ -359,6 +359,11 @@ button:focus,
   margin-top: -0.5rem;
 }
 
+.error {
+  color: red;
+  font-size: 0.9rem;
+}
+
 @media all and (max-width: 555px) {
   /* Header */
 

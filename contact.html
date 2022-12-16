@@ -110,20 +110,15 @@
 
       <div class="contact__form">
         <h2>Contact form</h2>
-        <form class="contact-form" action="" method="post">
+        <form class="contact-form">
           <p>All fields are required.</p>
           <div>
             <label for="name">Full name:</label>
-            <input id="name" type="text" placeholder="John Doe" required />
+            <input id="name" type="text" placeholder="John Doe" />
           </div>
           <div>
             <label for="email">Your e-mail:</label>
-            <input
-              id="email"
-              type="email"
-              placeholder="name@example.com"
-              required
-            />
+            <input id="email" type="email" placeholder="name@example.com" />
           </div>
           <div>
             <div class="your-message">
@@ -135,7 +130,6 @@
                 rows="2"
                 maxlength="240"
                 placeholder="Your message..."
-                required
               ></textarea>
             </div>
             <p class="contact-form__textfield-description">
@@ -143,9 +137,7 @@
               under your e-mail (max-length: 240 characters)
             </p>
           </div>
-          <button class="contact-form__button" type="submit">
-            Submit request
-          </button>
+          <button class="contact-form__button">Submit request</button>
         </form>
       </div>
     </main>
@@ -166,5 +158,6 @@
       </div>
     </footer>
     <script src="js/tota11y.min.js"></script>
+    <script src="./js/scripts.js"></script>
   </body>
 </html>
